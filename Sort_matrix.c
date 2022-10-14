@@ -12,7 +12,7 @@ for (salto = Dim/2; salto > 0; salto = salto/2){
 
 void sort_matrix (int *A, int N) {
 
-sort(A, N*N); //matrix NxN has N*N elements
+sort_rows_matrix(A, N*N); //matrix NxN has N*N elements
 /*matrix A is stored linearly: [a00, a01, a0n,...,an0, an1,...,ann], 
 so to sort all the elements just traverse the matrix linearly as a 1D vector*/
 
